@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1601B56B67EE1C4DC9A4597F /* Pods_Keto_StationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE2C295314A440CC4548D48 /* Pods_Keto_StationTests.framework */; };
+		1F69C3A72144410300E3A0E9 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69C3A62144410300E3A0E9 /* CalculatorViewController.swift */; };
 		1F8678162141B211002685A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8678152141B211002685A4 /* AppDelegate.swift */; };
 		1F8678182141B211002685A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8678172141B211002685A4 /* ViewController.swift */; };
 		1F86781B2141B211002685A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8678192141B211002685A4 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		1F8678202141B212002685A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F86781E2141B212002685A4 /* LaunchScreen.storyboard */; };
 		1F86782B2141B212002685A4 /* Keto_StationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F86782A2141B212002685A4 /* Keto_StationTests.swift */; };
 		1F8678362141B212002685A4 /* Keto_StationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8678352141B212002685A4 /* Keto_StationUITests.swift */; };
+		1FCD60ED2145E5B600FF4C01 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD60EC2145E5B600FF4C01 /* StartScreenViewController.swift */; };
+		1FF73B50214352C500246488 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF73B4F214352C500246488 /* TimerViewController.swift */; };
+		6FA07CA43EB93D67345C6A14 /* Pods_Keto_Station.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BDDE90F614786A93AFA3B2 /* Pods_Keto_Station.framework */; };
+		DDF6C997E3171A72D92075F6 /* Pods_Keto_StationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B52C1D51342619764C33AE /* Pods_Keto_StationUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E56F0C9D07BE73C8C60891E /* Pods-Keto-StationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto-StationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keto-StationUITests/Pods-Keto-StationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F69C3A62144410300E3A0E9 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		1F8678122141B211002685A4 /* Keto-Station.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keto-Station.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8678152141B211002685A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F8678172141B211002685A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		1F8678312141B212002685A4 /* Keto-StationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keto-StationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8678352141B212002685A4 /* Keto_StationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keto_StationUITests.swift; sourceTree = "<group>"; };
 		1F8678372141B212002685A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCD60EC2145E5B600FF4C01 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		1FF73B4F214352C500246488 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		30635D02ADDEFB3CDD30313D /* Pods-Keto-StationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto-StationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Keto-StationUITests/Pods-Keto-StationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54B52C1D51342619764C33AE /* Pods_Keto_StationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keto_StationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E8A065EA30521B1D441E7D /* Pods-Keto-StationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto-StationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keto-StationTests/Pods-Keto-StationTests.release.xcconfig"; sourceTree = "<group>"; };
+		64F46ED5D150E2776598E80E /* Pods-Keto-Station.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto-Station.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keto-Station/Pods-Keto-Station.release.xcconfig"; sourceTree = "<group>"; };
+		734C1E688585F0A1492E9B1D /* Pods-Keto-StationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto-StationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Keto-StationTests/Pods-Keto-StationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FE2C295314A440CC4548D48 /* Pods_Keto_StationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keto_StationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BDDE90F614786A93AFA3B2 /* Pods_Keto_Station.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keto_Station.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EAB0C9B1F31C19C3036191 /* Pods-Keto-Station.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto-Station.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Keto-Station/Pods-Keto-Station.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA07CA43EB93D67345C6A14 /* Pods_Keto_Station.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1601B56B67EE1C4DC9A4597F /* Pods_Keto_StationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF6C997E3171A72D92075F6 /* Pods_Keto_StationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				1F8678292141B212002685A4 /* Keto-StationTests */,
 				1F8678342141B212002685A4 /* Keto-StationUITests */,
 				1F8678132141B211002685A4 /* Products */,
+				C9661CA8A3D1D764A51D1A0F /* Pods */,
+				2F322E8287ED135430CD38DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,9 @@
 				1F86781C2141B212002685A4 /* Assets.xcassets */,
 				1F86781E2141B212002685A4 /* LaunchScreen.storyboard */,
 				1F8678212141B212002685A4 /* Info.plist */,
+				1FF73B4F214352C500246488 /* TimerViewController.swift */,
+				1F69C3A62144410300E3A0E9 /* CalculatorViewController.swift */,
+				1FCD60EC2145E5B600FF4C01 /* StartScreenViewController.swift */,
 			);
 			path = "Keto-Station";
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = "Keto-StationUITests";
 			sourceTree = "<group>";
 		};
+		2F322E8287ED135430CD38DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0BDDE90F614786A93AFA3B2 /* Pods_Keto_Station.framework */,
+				7FE2C295314A440CC4548D48 /* Pods_Keto_StationTests.framework */,
+				54B52C1D51342619764C33AE /* Pods_Keto_StationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9661CA8A3D1D764A51D1A0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6EAB0C9B1F31C19C3036191 /* Pods-Keto-Station.debug.xcconfig */,
+				64F46ED5D150E2776598E80E /* Pods-Keto-Station.release.xcconfig */,
+				734C1E688585F0A1492E9B1D /* Pods-Keto-StationTests.debug.xcconfig */,
+				64E8A065EA30521B1D441E7D /* Pods-Keto-StationTests.release.xcconfig */,
+				30635D02ADDEFB3CDD30313D /* Pods-Keto-StationUITests.debug.xcconfig */,
+				1E56F0C9D07BE73C8C60891E /* Pods-Keto-StationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F86783A2141B212002685A4 /* Build configuration list for PBXNativeTarget "Keto-Station" */;
 			buildPhases = (
+				30D900E35F843720C5EAC973 /* [CP] Check Pods Manifest.lock */,
 				1F86780E2141B211002685A4 /* Sources */,
 				1F86780F2141B211002685A4 /* Frameworks */,
 				1F8678102141B211002685A4 /* Resources */,
+				FE18F7000E4FD3548BD43A47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F86783D2141B212002685A4 /* Build configuration list for PBXNativeTarget "Keto-StationTests" */;
 			buildPhases = (
+				386E772115D9677C1D32A5B1 /* [CP] Check Pods Manifest.lock */,
 				1F8678222141B212002685A4 /* Sources */,
 				1F8678232141B212002685A4 /* Frameworks */,
 				1F8678242141B212002685A4 /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F8678402141B212002685A4 /* Build configuration list for PBXNativeTarget "Keto-StationUITests" */;
 			buildPhases = (
+				B94C01556249D149A39552D4 /* [CP] Check Pods Manifest.lock */,
 				1F86782D2141B212002685A4 /* Sources */,
 				1F86782E2141B212002685A4 /* Frameworks */,
 				1F86782F2141B212002685A4 /* Resources */,
@@ -251,13 +304,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30D900E35F843720C5EAC973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keto-Station-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		386E772115D9677C1D32A5B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keto-StationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94C01556249D149A39552D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keto-StationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE18F7000E4FD3548BD43A47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Keto-Station/Pods-Keto-Station-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keto-Station/Pods-Keto-Station-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F86780E2141B211002685A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F8678182141B211002685A4 /* ViewController.swift in Sources */,
+				1FF73B50214352C500246488 /* TimerViewController.swift in Sources */,
+				1F69C3A72144410300E3A0E9 /* CalculatorViewController.swift in Sources */,
 				1F8678162141B211002685A4 /* AppDelegate.swift in Sources */,
+				1FCD60ED2145E5B600FF4C01 /* StartScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +559,11 @@
 		};
 		1F86783B2141B212002685A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EAB0C9B1F31C19C3036191 /* Pods-Keto-Station.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6SR6248H2;
 				INFOPLIST_FILE = "Keto-Station/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +578,11 @@
 		};
 		1F86783C2141B212002685A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F46ED5D150E2776598E80E /* Pods-Keto-Station.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6SR6248H2;
 				INFOPLIST_FILE = "Keto-Station/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +597,7 @@
 		};
 		1F86783E2141B212002685A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734C1E688585F0A1492E9B1D /* Pods-Keto-StationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +618,7 @@
 		};
 		1F86783F2141B212002685A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E8A065EA30521B1D441E7D /* Pods-Keto-StationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +639,7 @@
 		};
 		1F8678412141B212002685A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30635D02ADDEFB3CDD30313D /* Pods-Keto-StationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +659,7 @@
 		};
 		1F8678422141B212002685A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E56F0C9D07BE73C8C60891E /* Pods-Keto-StationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
